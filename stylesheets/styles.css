@@ -1,52 +1,54 @@
 body {
   background-color: #fff;
-  padding:50px;
-  font: 12px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
-  font-weight:400;
+  padding:30px;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color:#191919;
+  font-weight:3500;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
+  margin:0 0 12px;
+}
+
+
+h1 {
+  font-size:34px;
+  font-weight: 500;
+  line-height:1.1;
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
-}
-
-h1 {
-  font-size:28px;
-  font-weight: 500;
-}
-
 h2 {
-  color:#393939;
+  color:#000000;
   font-weight: 500;
+  line-height:1.0;
+  margin:0 0 15px;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
-  font-weight: 500;
+  color:#000000;
+  font-weight: 400;
+  margin:0 0 3px;
 }
 
 a {
-  color:#39c;
+  color:#4033cc;
   text-decoration:none;
+  font-weight: 500;
 }
 
 a:hover {
-  color:#069;
+  color:#4033cc;
 }
 
 a small {
   font-size:11px;
   color:#777;
-  margin-top:-0.3em;
+  margin-top:0.3em;
   display:block;
 }
 
@@ -55,7 +57,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:1000px;
+  width:1050px;
   margin:0 auto;
 }
 
@@ -100,11 +102,11 @@ th {
 }
 
 img {
-  max-width:90%;
+  max-width:75%;
 }
 
 header {
-  width:200px;
+  width:300px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -137,7 +139,7 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:11px;
+  font-size:14px;
   color:#999;
   display:block;
   text-align:center;
@@ -164,7 +166,7 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size:14px;
+  font-size:16px;
   display:block;
   color:#222;
 }
